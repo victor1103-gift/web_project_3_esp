@@ -1,0 +1,31 @@
+.place {
+    display: grid;
+    grid-template-columns: 460px 460px;
+    grid-template-rows: 152px 460px 96px;
+    grid-template-areas: 
+    "title website"
+    "image paragraphs"
+    "button paragraphs";
+    column-gap: 40px;
+}
+.place__title {   
+    font-weight: 900px;
+    font-size: 75px;
+    line-height: 76px;
+    grid-area: title;
+    width: 584px;
+}
+.place__image {
+    width: 460px;
+    height: 460px;
+}
+.place__paragraph {
+    grid-area: paragraphs;
+}
+.place__website {
+    grid-area: website;
+    margin-top: 70px;
+}
+.place__paragraph {
+    margin-top: 40px;
+}

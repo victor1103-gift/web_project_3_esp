@@ -1,0 +1,38 @@
+.cover {
+    width: 1184px;
+    height: 740px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/imagenes/__background.png");
+}
+.cover:hover {
+    filter: grayscale(1);
+}
+.cover__button {
+    background-color: blue;
+    padding: 10px;
+    margin-top: 58px;
+}
+.cover__detail {
+    width: 656px;
+    height: 254px;
+    text-align: center;
+}
+.cover__title {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.cover__subtitle {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}

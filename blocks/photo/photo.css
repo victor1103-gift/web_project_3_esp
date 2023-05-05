@@ -1,0 +1,16 @@
+.photo__grid {
+    min-width: 1200px;
+    min-height: 442px;
+    margin-bottom: 80px;
+    margin-top: 75px;
+    
+}
+.photo__grid-item {
+    width: 284px;
+    height: 213px;
+    margin-left: 8px;
+    margin-top: 8px;
+    }
+@media  and () {
+    
+}

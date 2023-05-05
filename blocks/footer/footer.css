@@ -1,0 +1,15 @@
+.footer__item {
+    width: 191px;
+    height: 16px;
+    left: 531px;
+    top: 7433px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
