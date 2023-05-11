@@ -6,10 +6,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("/imagenes/__background.png");
 }
 .cover:hover {
     filter: grayscale(1);
+}
+.cover__image {
+    width: 1184px;
+    height: 740px;
+    left: 48px;
+    margin-top: 84px;
 }
 .cover__button {
     background-color: blue;
@@ -20,6 +25,7 @@
     width: 656px;
     height: 254px;
     text-align: center;
+    position: absolute;
 }
 .cover__title {
     margin-top: 28px;
