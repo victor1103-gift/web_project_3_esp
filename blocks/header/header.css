@@ -4,8 +4,3 @@ height: 70px;
 left: 505px;
 top: 34px;
 }
-@media  and (max-width: 200px) {
-    .image__header {
-        min-width: 300px;
-    }
-}
