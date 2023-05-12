@@ -1,0 +1,21 @@
+.header__image {
+    width: 320pñx;
+    height: 615px;
+    filter: grayscale(1);
+}
+.header__image-gallery {
+    min-width: 300px;
+    height: 120px;
+    left: 505px;
+    top: 34px;
+    }
+@media screen and (width: 320px){
+    .header__image {
+        max-width: 320px;
+        max-height: 200px;
+    }
+    .header__image-gallery {
+        min-width: 320px;
+        max-height: 100px;
+    }
+}

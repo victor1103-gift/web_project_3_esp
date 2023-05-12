@@ -1,6 +1,17 @@
-.image__header {
-min-width: 270px;
-height: 70px;
-left: 505px;
-top: 34px;
+.header {
+    max-width: 1250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 983px;
 }
+
+@media screen and (max-width: 1250px){
+    .header {
+        max-width: 320px;
+        min-height: 120px;
+    }
+}
+
+

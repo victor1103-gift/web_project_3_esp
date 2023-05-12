@@ -1,0 +1,13 @@
+.intro__text-author {
+    width: 720px;
+    height: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 163%;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
