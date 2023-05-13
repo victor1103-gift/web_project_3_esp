@@ -1,13 +1,15 @@
 .intro {
     display: flex;
     flex-direction: column;
-    width: 1017px;
-    height: 516px;
-    left: 148px;
-    top: 1269px;
+    max-width: 1017px;
+    max-height: 516px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
-@media screen and (max-width: 1250px){
-    .header {
-        max-width: 320px;
-    }
+@media screen and (max-width: 1017px){
+    .intro {
+        min-width: 320px;
+        min-height: 607px;
+    }    
 }

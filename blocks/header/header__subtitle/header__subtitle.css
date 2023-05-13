@@ -1,9 +1,7 @@
 
 .header__subtitle {
-    max-width: 720px;
-    height: 72px;
-    left: 280px;
-    top: 426px;
+    min-width: 720px;
+    min-height: 72px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;

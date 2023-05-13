@@ -1,12 +1,17 @@
 .intro__text-city {
-    width: 720px;
+    max-width: 719px;
     height: 182px;
-    left: 148px;
-    top: 1603px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
     color: #FFFFFF;
+}
+@media screen and (min-width: 720px) {
+    .intro__text-city {
+        min-width: 288px;
+        max-height: 300px;
+        font-size: 16px;
+    }
 }

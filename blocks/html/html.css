@@ -5,3 +5,11 @@
 html {
     background-color: #2a2c2f;
 }
+
+@media screen and (max-width: 340px) {
+    body {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }    
+}

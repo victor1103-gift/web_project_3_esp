@@ -1,7 +1,7 @@
 .header__image {
-    width: 320pñx;
-    height: 615px;
+    min-height: 615px;
     filter: grayscale(1);
+    max-width: 984px;
 }
 .header__image-gallery {
     min-width: 300px;
@@ -9,13 +9,12 @@
     left: 505px;
     top: 34px;
     }
-@media screen and (width: 320px){
+@media screen and (min-width: 960px){
     .header__image {
-        max-width: 320px;
         max-height: 200px;
     }
     .header__image-gallery {
-        min-width: 320px;
+        max-width: 320px;
         max-height: 100px;
     }
 }

@@ -11,3 +11,12 @@
     margin-left: 8px;
     margin-top: 8px;
     }
+@media screen and (min-width: 320px){
+    .photo__grid {
+        min-width: 320px;
+    }
+    .photo__grid-item {
+        min-width: 288px;
+        min-height: 216px;
+    }
+}
