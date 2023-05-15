@@ -8,8 +8,8 @@ html {
 
 @media screen and (max-width: 340px) {
     body {
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-end;
+        /* display: flex; */
+        /* justify-content: flex-start; */
+        /* align-items: flex-end; */
     }    
 }

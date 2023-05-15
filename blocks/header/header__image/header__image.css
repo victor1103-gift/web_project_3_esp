@@ -6,12 +6,11 @@
 .header__image-gallery {
     min-width: 300px;
     height: 120px;
-    left: 505px;
-    top: 34px;
     }
-@media screen and (min-width: 960px){
+@media screen and (max-width: 980px){
     .header__image {
-        max-height: 200px;
+        max-width: 320px;
+        min-height: 216px;
     }
     .header__image-gallery {
         max-width: 320px;

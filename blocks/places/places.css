@@ -1,4 +1,13 @@
 .places {
-    width: 978px;
+    max-width: 978px;
     color: white;
+    margin-top: 100px;
+}
+@media screen and (max-width: 978px) and (min-width: 320px){
+    .places {
+        max-width: 320px;
+        min-height: 1116px;
+        display: flex;
+        flex-direction: column;
+    }    
 }

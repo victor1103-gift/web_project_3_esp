@@ -9,7 +9,7 @@
 }
 @media screen and (max-width: 1017px){
     .intro {
-        min-width: 320px;
-        min-height: 607px;
+        max-width: 320px;
+        max-height: 607px;
     }    
 }
