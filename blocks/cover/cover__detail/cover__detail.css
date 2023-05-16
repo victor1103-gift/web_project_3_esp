@@ -1,0 +1,12 @@
+.cover__detail {
+    width: 656px;
+    height: 254px;
+    text-align: center;
+    position: absolute;
+}
+@media screen and (max-width: 320px){
+    .cover__detail {
+        max-width: 322px;
+        max-height: 254px;
+    }    
+}

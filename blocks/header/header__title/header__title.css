@@ -9,13 +9,18 @@
     text-align: center;
     color: #FFFFFF;
 }
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 320px){
     .header__title {
+        min-width: 286px;
+        max-height: 88px;
         font-size: 40px;
-        max-width: 288px;
-        min-height: 88px;
-        display: flex;
-        /* justify-content: center; */
+    }
+}
+@media screen and (min-width: 768px){
+    .header__title {
+        min-width: 768px;
+        max-height: 200px;
+        font-size: 93px;
+        /* margin-top: 200px; */
     }
 }

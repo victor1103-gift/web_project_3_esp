@@ -1,6 +1,6 @@
 .intro__text-author {
     width: 720px;
-    height: 100px;
+    min-height: 50px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;

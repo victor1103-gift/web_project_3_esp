@@ -3,18 +3,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 983px;
+    max-height: 983px;
     margin-right: auto;
     margin-left: auto;
 }
 
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 320px){
     .header {
         min-width: 320px;
-        min-height: 120px;
-        display: flex;
-        align-items: center;
+        min-height: 150px;
+        margin-bottom: 80px;
     }
+}
+@media screen and (min-width: 768px){
+    .header {
+        max-width: 768px;
+        max-height: 500px;
+    }    
 }
 
 

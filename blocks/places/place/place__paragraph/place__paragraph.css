@@ -1,0 +1,23 @@
+.place__paragraph {
+    grid-area: paragraphs;
+}
+
+.place__paragraph {
+    margin-top: 40px;
+}
+@media screen and (max-width: 320px){
+    .place__paragraph {
+        min-width: 288px;
+        max-height: 288px;
+        position: relative;
+        /* margin-left: 10px; */
+        /* top: -75px; */
+    }
+}
+@media screen and (max-width: 768px){
+    .place__paragraph {
+        max-width: 270px;
+        max-height: 234px;
+        margin-top: 10px;
+    }    
+}

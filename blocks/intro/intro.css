@@ -5,11 +5,23 @@
     max-height: 516px;
     margin-left: auto;
     margin-right: auto;
-    align-items: center;
+    /* align-items: center; */
 }
-@media screen and (max-width: 1017px){
+@media screen and (max-width: 320px){
     .intro {
-        max-width: 320px;
+        min-width: 320px;
         max-height: 607px;
+    }    
+}
+@media screen and (min-width: 768px){
+    .intro {
+        min-width: 768px;
+        max-height: 600px;
+        position: relative;
+        top: 280px;
+        bottom: 300px;
+        /* margin-bottom: 0px; */
+        /* margin-left: auto; */
+        /* margin-right: auto; */
     }    
 }

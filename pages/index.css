@@ -1,23 +1,39 @@
 @import url(../pages/index.css);
-@import url(../blocks/page/page.css);
+/*botton*/
+@import url(../blocks/button/button__paragraph/button__paragraph.css);
 @import url(../blocks/button/button.css);
+/*cover*/
+@import url(../blocks/cover/cover__title/cover__title.css);
+@import url(../blocks/cover/cover__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/cover__image/cover__image.css);
+@import url(../blocks/cover/cover__hover/cover__hover.css);
+@import url(../blocks/cover/cover__detail/cover__detail.css);
+@import url(../blocks/cover/cover__button/cover__button.css);
 @import url(../blocks/cover/cover.css);
+/*footer pie de paguina*/
+@import url(../blocks/footer/footer.css);
+/*header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/header__image/header__image.css);
+@import url(../blocks/header/header__subtitle/header__subtitle.css);
+@import url(../blocks/header/header__title/header__title.css);
+/*html paguina*/
 @import url(../blocks/html/html.css);
+/*bloque Intro*/
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/intro__text/intro__text-author.css);
 @import url(../blocks/intro/intro__text/intro__text-city.css);
 @import url(../blocks/intro/intro__text/intro__text.css);
 @import url(../blocks/intro/intro__title/intro__title.css);
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/header__image/header__image.css);
-@import url(../blocks/header/header__subtitle/header__subtitle.css);
-@import url(../blocks/header/header__title/header__title.css);
-@import url(../blocks/photo/photo.css);
-@import url(../blocks/places/place/place.css);
+/*bloque page*/
+@import url(../blocks/page/page.css);
+/*bloque photo*/
+@import url(../blocks/photo/photo__grid/photo__grid.css);
+/*bloque places*/
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/place/place__image.csss);
-@import url(../blocks/places/place/place__paragraph.css);
-@import url(../blocks/places/place/place__title.css);
-@import url(../blocks/places/place/place__website.css);
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/header/header.css);
+@import url(../blocks/places/place/place__web/place__web.css);
+@import url(../blocks/places/place/place__url/place__url.css);
+@import url(../blocks/places/place/place__title/place__title.css);
+@import url(../blocks/places/place/place__paragraph/place__paragraph.css);
+@import url(../blocks/places/place/place__image/place__image.css);
+@import url(../blocks/places/place/place.css);

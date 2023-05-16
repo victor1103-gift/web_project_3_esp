@@ -9,13 +9,17 @@
     text-align: left;
     color: #FFFFFF;
 }
-@media screen and (max-width: 1250px){
+@media screen and (min-width: 768px){
+    .intro__title {
+        min-width: 720px;
+        max-height: 232px;
+    }
+}
+@media screen and (max-width: 320px){
     .intro__title  {
         max-width: 320px;
-        /* min-height: 175px; */
         font-size: 32px;
         line-height: 35px;
         font-weight: 900;
-        /* display: flex; */
-    }
+    }    
 }
