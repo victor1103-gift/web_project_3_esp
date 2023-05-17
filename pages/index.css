@@ -28,7 +28,7 @@
 /*bloque page*/
 @import url(../blocks/page/page.css);
 /*bloque photo*/
-@import url(../blocks/photo/photo__grid/photo__grid.css);
+@import url(../blocks/photo__grid/photo__grid.css);
 /*bloque places*/
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/place/place__web/place__web.css);
