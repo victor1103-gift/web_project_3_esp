@@ -3,6 +3,7 @@
     height: 740px;
     /* left: 48px; */
     margin-top: 84px;
+    margin-bottom: 132px;
 }
 @media screen and (max-width: 320px){
     .cover__image {
@@ -11,7 +12,7 @@
         margin-bottom: 100px;
     }    
 }
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
     .cover__image {
         max-width: 768px;
         max-height: 766px;

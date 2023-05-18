@@ -1,6 +1,6 @@
 .header__image {
-    width: 984px;
-    height: 615px;
+    max-width: 984px;
+    min-height: 615px;
     filter: grayscale(1);
 }
 .header__image-gallery {
@@ -11,7 +11,7 @@
 @media screen and (max-width: 320px){
         .header__image {
             max-width: 288px;
-            max-height: 216px;
+            min-height: 216px;
         }
         .header__image-gallery {
             min-width: 320px;
@@ -22,6 +22,6 @@
 @media screen and (min-width: 768px){
         .header__image {
             max-width: 768px;
-            max-height: 480px;
+            min-height: 480px;
         }        
     }

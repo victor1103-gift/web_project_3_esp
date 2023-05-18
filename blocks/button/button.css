@@ -6,7 +6,7 @@
 }
 @media screen and (max-width: 320px){
     .button {
-        bottom: -920px;
+        bottom: -1000px;
         position: relative;
     }
     .button_two  {

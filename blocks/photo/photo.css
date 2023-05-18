@@ -1,8 +1,7 @@
 .photo {
     max-width: 1200px;
-    max-height: 442px;
+    min-height: 442px;
     margin-bottom: 80px;
-    margin-top: 75px;
     margin-left: 160px;
 }
 @media screen and (min-width: 768px){
@@ -10,13 +9,14 @@
         min-width: 720px;
         max-height: 1200px;
         margin-top: 300px;
+        margin-left: 58px;
         }
    
 }
 @media screen and (max-width: 320px){
     .photo {
         min-width: 320px;
-        min-height: 1100px;
+        max-height: 1100px;
         margin-top: 250px;
         margin-bottom: 668px;
         margin-left: auto;

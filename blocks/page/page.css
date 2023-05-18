@@ -1,15 +1,10 @@
  .page {
-    display: flex;
-    flex-direction: column;
     background-color: #2A2C29;
     max-width: 1280px;
-    max-height: 6500px;
-    align-items: center;
     margin-right: auto;
-    margin-left: auto;
     justify-content: center;
 }
-@media screen and (min-width: 320px){
+@media screen and (max-width: 320px){
     .page {
         min-width: 320px;
         max-height: 10500px;
@@ -17,6 +12,15 @@
         flex-direction: column;
         align-items: center;
         margin-left: 10px;
-        /* margin-right: auto; */
     }
+}
+@media screen and (min-width: 768px){
+    .page {
+        min-width: 768px;
+        max-height: 10500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 28px;
+    } 
 }
