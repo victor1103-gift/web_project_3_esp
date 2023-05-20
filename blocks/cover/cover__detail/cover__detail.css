@@ -4,6 +4,9 @@
     text-align: center;
     position: absolute;
 }
+.cover__detail:hover {
+    color: white;
+}
 @media screen and (max-width: 320px){
     .cover__detail {
         max-width: 322px;

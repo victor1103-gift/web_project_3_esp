@@ -10,8 +10,8 @@
     }
 @media screen and (max-width: 320px){
         .header__image {
-            max-width: 288px;
-            min-height: 216px;
+            max-width: 320px;
+            min-height: 200px;
         }
         .header__image-gallery {
             min-width: 320px;

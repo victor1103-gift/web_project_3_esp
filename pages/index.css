@@ -1,6 +1,5 @@
-@import url(../pages/index.css);
-/*botton*/
-@import url(../blocks/button/button__paragraph/button__paragraph.css);
+@import url(/vendor/normalice.css);
+/*button*/
 @import url(../blocks/button/button.css);
 /*cover*/
 @import url(../blocks/cover/cover__title/cover__title.css);

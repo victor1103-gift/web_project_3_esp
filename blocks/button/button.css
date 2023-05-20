@@ -1,16 +1,20 @@
 .button {
     grid-area: button;
+    width: 315px;
+    height: 30px;
+    margin-top: 60px;
+    background-color: #0278FE;
+    color: white;
 }
-.button_two {
-    grid-area: button;
+.button:hover {
+    background-color: #0063D2;
 }
+
 @media screen and (max-width: 320px){
     .button {
+        max-width: 268px;
+        max-height: 48px;
         bottom: -1000px;
-        position: relative;
-    }
-    .button_two  {
-        bottom: -999px;
         position: relative;
     }
 }
