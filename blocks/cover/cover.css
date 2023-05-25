@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
 } 
-.cover:hover .cover__image {
+.cover:hover {
     filter: grayscale(1);
 }
 @media screen and (max-width: 320px){

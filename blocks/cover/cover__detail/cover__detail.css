@@ -1,8 +1,9 @@
-.cover__detail { 
+.cover__detail {
     width: 656px;
     height: 254px;
     text-align: center;
     position: absolute;
+    z-index: 1;
 }
 @media screen and (max-width: 320px){ 
 
