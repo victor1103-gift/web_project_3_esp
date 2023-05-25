@@ -1,18 +1,23 @@
 .place__paragraph {
     grid-area: paragraphs;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
+
 @media screen and (max-width: 320px){
     .place__paragraph {
-        min-width: 288px;
-        max-height: 288px;
-        position: relative;
+        max-width: 320px;
+        /* min-height: 1169px; */
+        /* display: block; */
+        /* margin-right: -300px; */
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
     .place__paragraph {
-        max-width: 270px;
+        max-width: 352px;
         max-height: 234px;
-        margin-top: 10px;
+        margin-bottom: 20px;
+        /* position: relative; */
+        /* left: -100px; */
+        /* margin-left: -100px; */
     }    
 }

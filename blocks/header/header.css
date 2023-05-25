@@ -1,25 +1,21 @@
 .header {
-    width: 1250px;
+    max-width: 984px;
+    max-height: 1010px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 983px;
     margin-right: auto;
     margin-left: auto;
 }
-
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
     .header {
-        max-width: 320px;
-        min-height: 150px;
+        min-width: 288px;
+        min-height: 188px;
         margin-bottom: 80px;
     }
 }
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px) {
     .header {
-        max-width: 768px;
-        max-height: 550px;
+        max-width: 720px;
     }    
 }
-
-

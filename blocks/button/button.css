@@ -5,16 +5,16 @@
     margin-top: 60px;
     background-color: #0278FE;
     color: white;
+    border-style: none;
 }
 .button:hover {
     background-color: #0063D2;
 }
-
 @media screen and (max-width: 320px){
     .button {
         max-width: 268px;
         max-height: 48px;
-        bottom: -1000px;
+        bottom: -990px;
         position: relative;
     }
 }

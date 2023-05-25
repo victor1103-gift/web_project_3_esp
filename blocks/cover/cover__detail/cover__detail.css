@@ -1,15 +1,13 @@
-.cover__detail {
+.cover__detail { 
     width: 656px;
     height: 254px;
     text-align: center;
     position: absolute;
 }
-.cover__detail:hover {
-    color: white;
-}
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px){ 
+
     .cover__detail {
         max-width: 322px;
         max-height: 254px;
-    }    
-}
+    }
+} 

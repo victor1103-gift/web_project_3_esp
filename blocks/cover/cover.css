@@ -6,16 +6,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+} 
+.cover:hover .cover__image {
+    filter: grayscale(1);
 }
-@media screen and (max-width: 320px){
-    .cover {
-        max-width: 322px;
-        max-height: 254px;
-    }
-}
-@media screen and (min-width: 768px) {
-    .cover {
+@media screen and (max-width: 320px){ 
+    .cover { 
+        max-width: 322px; 
+        max-height: 254px; 
+    } 
+} 
+
+@media screen and (min-width: 768px) { 
+    .cover { 
         min-width: 768px;
         min-height: 746px;
     }
+
 }

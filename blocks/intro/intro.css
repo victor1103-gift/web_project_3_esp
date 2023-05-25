@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: column;
     max-width: 1017px;
-    min-height: 516px;
+    height: 516px;
     margin-left: auto;
     margin-right: auto;
-    /* align-items: center; */
+    margin-bottom: 92px;
 }
-@media screen and (max-width: 320px){
+@media screen and (min-width: 320px){
     .intro {
         min-width: 320px;
-        max-height: 607px;
+        min-height: 750px;
     }    
 }
 @media screen and (min-width: 768px){
@@ -18,10 +18,7 @@
         min-width: 768px;
         min-height: 500px;
         position: relative;
-        top: 250px;
-        bottom: 300px;
-        /* margin-bottom: 0px; */
-        /* margin-left: auto; */
-        /* margin-right: auto; */
+        /* top: 250px; */
+        /* bottom: 92px; */
     }    
 }

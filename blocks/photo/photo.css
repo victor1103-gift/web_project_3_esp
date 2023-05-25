@@ -1,24 +1,24 @@
 .photo {
-    max-width: 1200px;
-    min-height: 442px;
-    margin-bottom: 80px;
-    margin-left: auto;
+    min-width: 1200px;
+    min-height: 482px;
 }
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 320px){
     .photo {
-        max-width: 720px;
-        min-height: 400px;
-        margin-left: auto;
-        }
-   
-}
-@media screen and (min-width: 320px){
-    .photo {
-        min-width: 320px;
-        max-height: 1850px;
-        margin-top: 250px;
+        min-width: 288px;
+        max-height: 1812px;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 550px;
+        display: flex;
+        flex-direction: column;
     }
+}
+@media screen and (min-width: 768px){
+    .photo {
+        min-width: 720px;
+        max-height: 984px;
+        margin-left: 100px;
+        /* margin-right: auto; */
+        }
+   
 }
