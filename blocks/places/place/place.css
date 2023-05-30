@@ -1,29 +1,32 @@
 .place {
     display: grid;
-    /* grid-template-columns: 460px 460px; */
-    /* grid-template-rows: 152px 460px 96px; */
+    grid-template-columns: 460px 460px;
+    grid-template-rows: 152px 460px 96px;
     grid-template-areas:
         "title website"
         "image paragraphs"
         "button paragraphs";
-    /* column-gap: 40px; */
+    column-gap: 80px;
     margin-bottom: 80px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 768px){
     .place {
-        max-width: 320px;
+        min-width: 320px;
         min-height: 1169px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
+        flex-wrap: wrap;
     }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 768px){
     .place {
-        min-width: 768px;
+        max-width: 768px;
         /* display: flex; */
-        /* align-items: flex-start; */
-        /* min-height: 1250px; */
-        /* gap: 0; */
+        /* flex-wrap: wrap; */
+        /* position: relative; */
+        /* right: 50px; */
+        display: grid;
+        gap: initial;
     }    
 }
