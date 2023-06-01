@@ -7,8 +7,9 @@
     font-weight: 900;
     line-height: 76px;
     grid-area: title;
+    /* margin-bottom: 70px; */
 }
-@media screen and (min-width: 320px){
+@media screen and (max-width: 320px){
     .place__title {
         max-width: 320px;
         max-height: 35px;
@@ -19,7 +20,7 @@
 }
 @media screen and (max-width: 768px){
     .place__title {
-        min-width: 340px;
+        max-width: 340px;
         min-height: 46px;
         font-size: 42px;
 }

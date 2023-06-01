@@ -9,12 +9,12 @@
 }
 @media screen and (max-width: 320px) {
     .header {
-        min-width: 288px;
+        max-width: 288px;
         min-height: 188px;
         margin-bottom: 80px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .header {
         max-width: 720px;
     }    
