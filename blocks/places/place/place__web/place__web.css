@@ -2,21 +2,15 @@
     grid-area: website;
     margin-top: 70px;
 }
-@media screen and (max-width: 320px){
+@media screen and (min-width: 320px){
     .place__website {
-        max-width: 288px;
-        max-height: 44px;
-        position: relative;
-        bottom: 450px;
-    }    
+        width: 286px;
+        /* position: relative; */
+    }
 }
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
     .place__website {
-        max-width: 352px;
-        min-height: 44px;
-        font-size: 18px;
-        position: relative;
-        left: -180px;
-        top: 30px;
+        max-width: 768px;
+        /* margin-left: -80px; */
     }
 }

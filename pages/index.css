@@ -1,4 +1,5 @@
-@import url(/vendor/normalice.css);
+@import url(../vendor/normalice.css);
+@import url(../vendor/fonts/);
 /*button*/
 @import url(../blocks/button/button.css);
 /*cover*/

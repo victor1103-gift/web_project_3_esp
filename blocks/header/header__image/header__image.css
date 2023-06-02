@@ -1,26 +1,20 @@
 .header__image {
     width: 984px;
-    max-height: 615px;
     filter: grayscale(1);
 }
 .header__image-gallery {
-    max-width: 300px;
-    max-height: 120px;
+    width: 300px;
     }
     @media screen and (min-width: 320px){
         .header__image {
-            max-width: 320px;
-            min-height: 200px;
+            width: 320px;
         }
         .header__image-gallery {
-            min-width: 320px;
-            min-height: 100px;
-            margin-top: 24px;
+            width: 320px;
         }
     }
     @media screen and (min-width: 768px){
         .header__image {
-            min-width: 768px;
-            min-height: 480px;
+            width: 768px;
         }        
     }

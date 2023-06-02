@@ -1,26 +1,11 @@
 .button {
     grid-area: button;
     width: 315px;
-    height: 30px;
-    margin-top: 60px;
     background-color: #0278FE;
     color: white;
     border-style: none;
+    margin-top: 50px;
 }
 .button:hover {
     background-color: #0063D2;
-}
-@media screen and (min-width: 320px){
-    .button {
-        min-width: 268px;
-        max-height: 48px;
-        bottom: -790px;
-        position: relative;
-    }
-}
-@media screen and (min-width: 768px) {
-    .button {
-        position: relative;
-        bottom: unset;
-    }
 }
