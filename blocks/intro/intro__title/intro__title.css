@@ -1,5 +1,4 @@
 .intro__title {
-    height: 116px;
     max-width: 1017px;
     font-family: Inter;
     font-size: 54px;
@@ -8,16 +7,16 @@
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-}
-@media screen and (max-width: 1280px){
+}  
+
+@media screen and (min-width: 768px) and (max-width: 1289px){
     .intro__title {
         min-width: 720px;
         max-height: 232px;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     .intro__title  {
-        min-width: 320px;
         font-size: 32px;
         line-height: 35px;
         font-weight: 900;

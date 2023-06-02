@@ -1,0 +1,26 @@
+@import url(../vendor/normalice.css);
+@import url(../vendor/fonts/inter.css);
+
+/*bloque page*/
+@import url(../blocks/page/page.css);
+
+/*header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/header__image/header__image.css);
+@import url(../blocks/header/header__subtitle/header__subtitle.css);
+@import url(../blocks/header/header__title/header__title.css);
+
+/*bloque Intro*/
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/intro__text/intro__text-author.css);
+@import url(../blocks/intro/intro__text/intro__text-city.css);
+@import url(../blocks/intro/intro__text/intro__text.css);
+@import url(../blocks/intro/intro__title/intro__title.css);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #2a2c2f;
+}
